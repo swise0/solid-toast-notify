@@ -9,11 +9,13 @@ notify({in:'class1 class2',out:'class3 class4',duration:number,progressbar:'clas
 
 `out`:string = same syntax as initialclassname(s) but would be applied to your notifcation when duration is specified.
 >eg: `notify({out: 'outro'})`
+
 `duration`:string = time in seconds before the notification ends.
 >I guess the duration of most notifications aren't less than 5 seconds considering the number of text to be read.
 
 `progressbar`:string = css classname(s) to add to style progressbar separated by space or comma(,).
 >eg: `notify({progressbar: 'notif-progress-bar',duration: 2.9})`
+
 >note:duration should be specified in order to animate the progressbar.
 
 `block`:html or string = this is quite a demo, but you already know what it does.. simply takes in html block code into the notification toast.
