@@ -21,5 +21,4 @@ I shifted all animations from javascript to css for a more customizable experien
 
 All you have to do is to add your classes.
 
-in
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
