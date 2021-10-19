@@ -1,33 +1,19 @@
+## Syntax
+notify({in:string,out:string,duration:number,progressbar:string})}
+
+## Input Values
+[in]:string = css classes to add separated by space or comma to style each notification. You can add classes with animations to make them lively.
+
+[out]:string = same as initialclassname(s) but would be applied to your notifcation when duration is specified.
+
+[progressbar]:string = css classname(s) to add to style progressbar separated by space or comma(,). nb:duration should be specified if you would want to add a progressbar.
+
 ## Usage
+Name of function is [notify()] and it accepts an object as arguments with therefore contains your option to style ech notification toast.
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+I shifted all animations from javascript to css for a more customizable experience,
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+All you have to do is to add your classes.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+in
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)

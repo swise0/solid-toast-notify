@@ -1,25 +1,19 @@
 import logo from "./logo.svg";
-import styles from "./App.module.css";
+import notify from "./notif";
 
 function App() {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div class="trigger">
+      <button id="success" onclick={()=>notify({in:'row success hello',duration:2999,out:'outro'})}>Success</button>
+        <button id="error" onclick={()=>notify({in:'row error intro',out:'outro',progressbar:'notif-progress-bar',duration:100000})}>Error</button>
+        <button id="alert" onclick={()=>notify({in:'row alert intro',duration:2000})}>Alert</button>
+        <button id="info" onclick={()=>notify({in:'row info intro',duration:1040})}>Info</button>
+        <button id="custom" onclick={()=>notify({in:'custom',block:'<a href=\'www.href.com\'>Click Here</a>'})}>Custom</button>
+  <button id="custom" onclick={()=>notify({in:'row custom'})}>Custom</button>
+      </div>
+      <script src='mynotif.js'></script>
+    </>);
 }
 
 export default App;
