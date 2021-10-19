@@ -8,8 +8,10 @@ notify({in:string,out:string,duration:number,progressbar:string})}
 
 [progressbar]:string = css classname(s) to add to style progressbar separated by space or comma(,). nb:duration should be specified if you would want to add a progressbar.
 
+[block]:htmlstring = this is quite a demo, but you already know what it does.. simply takes in html block code into the notification toast.feature coming sooner than you will think
+
 ## Usage
-Name of function is [notify()] and it accepts an object as arguments with therefore contains your option to style ech notification toast.
+Name of function is [notify()] and it accepts an object as an argument which contain options to style each notification toast.
 
 I shifted all animations from javascript to css for a more customizable experience,
 
