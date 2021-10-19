@@ -15,8 +15,6 @@ body {
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  border: 1px solid red;
-
   max-width: 124rem;
 }
 
