@@ -20,10 +20,10 @@ notify({in:'class1 class2',out:'class3 class4',duration:number,progressbar:'clas
 >feature will be coming sooner than you expect
 
 ## Usage
-Name of function is [notify()] and it accepts an object as an argument which contain options to style each notification toast.
+Name of the function call is `notify()` and it accepts an object as an argument which contain options to style each notification toast.
 
 I shifted all animations from javascript to css for a more customizable experience,
 
-All you have to do is to add your classes.
+All you have to do is to add your css class names to each function call.
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
