@@ -1,6 +1,6 @@
 ## Syntax
-```
-**notify**({**in**:string,**out**:string,**duration**:number,**progressbar**:string})}
+```typescript
+notify({in:string,out:string,duration:number,progressbar:string})}
 ```
 
 ## Input Values
