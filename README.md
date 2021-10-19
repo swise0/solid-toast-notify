@@ -1,6 +1,6 @@
 ## Syntax
 ```typescript
-notify({in:string,out:string,duration:number,progressbar:string})}
+notify({in:'class1 class2',out:'class3 class4',duration:number,progressbar:'class5'})}
 ```
 
 ## Input Values
@@ -8,10 +8,15 @@ notify({in:string,out:string,duration:number,progressbar:string})}
 
 `out`:string = same syntax as initialclassname(s) but would be applied to your notifcation when duration is specified.
 
+`duration`:string = milliseconds before the notification ends.
+>Note : 1000 =1s, 2000=2s, 8000=8s and 55000 =55s(i mean which toast notification takes that long 😂)
+>I guess the duration of most notifications aren't less than 5 seconds considering the number of text to be read.
+
 `progressbar`:string = css classname(s) to add to style progressbar separated by space or comma(,).
->nb:duration should be specified if you would want to add a progressbar.
+>nb:duration should be specified in order to animate the progressbar.
 
 `block`:htmlstring = this is quite a demo, but you already know what it does.. simply takes in html block code into the notification toast.
+
 >feature will be coming sooner than you expect
 
 ## Usage
