@@ -16,7 +16,7 @@ notify({in:'class1 class2',out:'class3 class4',duration:number,progressbar:'clas
 >eg: `notify({progressbar: 'notif-progress-bar',duration: 2.9})`
 >note:duration should be specified in order to animate the progressbar.
 
-`block`:htmlstring = this is quite a demo, but you already know what it does.. simply takes in html block code into the notification toast.
+`block`:html or string = this is quite a demo, but you already know what it does.. simply takes in html block code into the notification toast.
 >eg: `notify({block: '<a href=\'www.solidjs.com\'>Click Here</a>'})`
 
 >Note that how the order of the input values doesnt matter
